@@ -1,0 +1,14 @@
+com/example/menu/item/ItemService.java
+ com.example.menu.item.ItemService
+com/example/menu/security/SecurityConfig.java
+ com.example.menu.security.SecurityConfig
+com/example/menu/MenuApplication.java
+ com.example.menu.MenuApplication
+com/example/menu/security/AudienceValidator.java
+ com.example.menu.security.AudienceValidator
+com/example/menu/item/Item.java
+ com.example.menu.item.Item
+com/example/menu/item/ItemController.java
+ com.example.menu.item.ItemController
+com/example/menu/item/InMemoryItemRepository.java
+ com.example.menu.item.InMemoryItemRepository
