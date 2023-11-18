@@ -5,7 +5,14 @@
 ## Resumen
 El repositorio contiene la implementación de seguridad, con Auth0 a una API Spring Boot construida en Java y la App cliente ["WHATABYTE Dashboard"](https://dashboard.whatabyte.app/), aplicando el principio de mediación completa (Autorización, autenticación e integralidad).
 
-## Preciondiciones
+## Indice
+1. [Precondiciones](#id1)
+2. [Implementación](#id2)
+3. [Evidencia](#id3)
+4. [Autores](#id4)
+5. [Bibliografía](#id5)
+
+## Precondiciones <a name="id1"></a>
 
 ### Clonar repositorio
 Clona el repositorio de la aplicación y consulta la rama: ```main ```
@@ -33,7 +40,7 @@ Finalmente, ejecute el proyecto con el siguiente comando
 ### Crear cuenta en [Auth0](https://auth0.com/signup)
 ### Tener un IDE disponible 
 
-## Implementación
+## Implementación <a name="id2"></a>
 
 Abra el archivo ```application.properties``` en la ruta ```src/main/resources``` y actualícelo:
 ```java
@@ -286,7 +293,7 @@ Registrese y la aplicación actualizará su información con la información del
 O ingrese a la información del usuario, si se loggeo a través de otra sesión como gmail, mostrará la imagen de gmail en su usuario
 ![image](https://github.com/camrojass/SecurityLab/assets/100396227/9717455a-e62a-4166-adec-a89931cafc4b)
 
-## Evidencia
+## Evidencia <a name="id3"></a>
 
 ### Validación Protección de terminales
 Una vez hecho realizado el registro de la aplicación y habilitado los CORS en Spring Boot, podrá validar que los cambios solo los pueda realizar los usuarios registrados
@@ -313,10 +320,10 @@ Una vez hecho realizado el registro de la aplicación y habilitado los CORS en S
 **NOTA** Para realizar la prueba, se deshabilita las caracteristicas de autenticación lo que impide que un usuario pueda conectarse.
 </details></p>
 
-## Autores
+## Autores <a name="id4"></a>
 * **Auth0** - *Repositorio original* - [Auth0 Blog Samples](https://github.com/auth0-blog)
 * **Camilo Alejandro Rojas** - *Trabajo y documentación* - [camrojass](https://github.com/camrojass)
 
-## Bibliografía
+## Bibliografía <a name="id5"></a>
 * Tutorial de autorización de Spring Boot: Protegener una API (Java). Url: https://auth0.com/blog/spring-boot-authorization-tutorial-secure-an-api-java/
 * Repositorio GitHub. Url: https://github.com/auth0-blog/menu-api-spring-boot-java.git
